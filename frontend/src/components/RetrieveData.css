@@ -1,0 +1,35 @@
+.data-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.data-title {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.data-entry {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.data-entry p {
+  margin: 0;
+}
+
+.data-delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.data-delete-btn:hover {
+  background-color: #c0392b;
+}
