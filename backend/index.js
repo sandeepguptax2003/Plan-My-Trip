@@ -10,7 +10,7 @@ const { connection } = require("./db");
 const { travelRouter } = require("./routes/travel.route");
 
 app.get("/", (req, res) => {
-  res.send("Welcome to backend of Plan my trip");
+  res.send("Welcome To Plan My Trip");
 });
 
 app.use("/api", travelRouter);
